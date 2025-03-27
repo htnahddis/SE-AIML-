@@ -52,7 +52,6 @@ void BellmanFord(struct Edge edges[], int src) {
         }
     }
     
-    printf("Final shortest distances from source:\n");
     printTable(V, dist);
 }
 
